@@ -1,0 +1,18 @@
+PUT http://localhost:8080/profile/changePassword
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTcxNDM0MzAsImV4cCI6MTY1NzIyOTgzMCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxMH0.vHvLLRKEHiTRJsyeSzI8NbweXn5sxC0izrikaBIu3BY
+
+{
+  "password": "121212"
+}
+
+###
+PUT http://localhost:8080/profile/changeEmail
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTcxNDM0MzAsImV4cCI6MTY1NzIyOTgzMCwiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjoxMH0.vHvLLRKEHiTRJsyeSzI8NbweXn5sxC0izrikaBIu3BY
+
+{
+  "tempEmail": "qodirovhudoberdi722@gmail.com"
+}
+###
+POST http://localhost:8080/auth/email/updateEmail/qodirovhudoberdi722@gmail.com

@@ -1,0 +1,11 @@
+POST http://localhost:8080/auth/registration
+Content-Type: application/json
+
+{
+  "email": "hudoberdi555@gmail.com",
+  "password": "00100",
+  "username": "hudoyberdi"
+}
+
+###
+GET http://localhost:8080/auth/email/verification/Bearer eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTcxMzc5MDcsImV4cCI6MTY1NzIyNDMwNywiaXNzIjoiTWF6Z2kgcHJvZHVjdGlvbiIsImlkIjo5fQ.A9Scmk93k87UnSzsjyTl7_t1JxwM0_S2g-Bk2lXUwZA
